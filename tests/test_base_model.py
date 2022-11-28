@@ -42,5 +42,5 @@ class TestBaseModel_initialization(unittest.TestCase):
         self.assertLess(o1.updated_at, o2.updated_at)
 
     def test_init_with_kwargs(self):
-        t = datetime.now()
+        dt = datetime.now()
         dtiso = dt.isoformat()
